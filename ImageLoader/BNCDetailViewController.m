@@ -16,6 +16,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    // Load http://photos.petfinder.com/photos/pets/20828727/1/?bust=1345487641&width=500&-x.jpg to imageView
     // stuffs
 }
 
