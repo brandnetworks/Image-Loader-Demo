@@ -22,6 +22,9 @@
 		3D95EC501976B81100976CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D95EC4E1976B81100976CF5 /* InfoPlist.strings */; };
 		3D95EC521976B81100976CF5 /* ImageLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC511976B81100976CF5 /* ImageLoaderTests.m */; };
 		3D95EC5D1976B97E00976CF5 /* BNCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC5C1976B97E00976CF5 /* BNCTableViewController.m */; };
+		3D95EC631976BB9B00976CF5 /* BNCDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC621976BB9B00976CF5 /* BNCDownloadOperation.m */; };
+		3D95EC661976BBA500976CF5 /* BNCDisplayOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC651976BBA500976CF5 /* BNCDisplayOperation.m */; };
+		3D95EC6C1976BF8A00976CF5 /* BNCResizeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC6B1976BF8A00976CF5 /* BNCResizeOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		3D95EC511976B81100976CF5 /* ImageLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageLoaderTests.m; sourceTree = "<group>"; };
 		3D95EC5B1976B97E00976CF5 /* BNCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCTableViewController.h; sourceTree = "<group>"; };
 		3D95EC5C1976B97E00976CF5 /* BNCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCTableViewController.m; sourceTree = "<group>"; };
+		3D95EC611976BB9B00976CF5 /* BNCDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCDownloadOperation.h; sourceTree = "<group>"; };
+		3D95EC621976BB9B00976CF5 /* BNCDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCDownloadOperation.m; sourceTree = "<group>"; };
+		3D95EC641976BBA500976CF5 /* BNCDisplayOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCDisplayOperation.h; sourceTree = "<group>"; };
+		3D95EC651976BBA500976CF5 /* BNCDisplayOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCDisplayOperation.m; sourceTree = "<group>"; };
+		3D95EC6A1976BF8A00976CF5 /* BNCResizeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCResizeOperation.h; sourceTree = "<group>"; };
+		3D95EC6B1976BF8A00976CF5 /* BNCResizeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCResizeOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +133,12 @@
 				3D95EC5C1976B97E00976CF5 /* BNCTableViewController.m */,
 				3D95EC3E1976B81100976CF5 /* Images.xcassets */,
 				3D95EC2A1976B81100976CF5 /* Supporting Files */,
+				3D95EC611976BB9B00976CF5 /* BNCDownloadOperation.h */,
+				3D95EC621976BB9B00976CF5 /* BNCDownloadOperation.m */,
+				3D95EC6A1976BF8A00976CF5 /* BNCResizeOperation.h */,
+				3D95EC6B1976BF8A00976CF5 /* BNCResizeOperation.m */,
+				3D95EC641976BBA500976CF5 /* BNCDisplayOperation.h */,
+				3D95EC651976BBA500976CF5 /* BNCDisplayOperation.m */,
 			);
 			path = ImageLoader;
 			sourceTree = "<group>";
@@ -255,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D95EC6C1976BF8A00976CF5 /* BNCResizeOperation.m in Sources */,
 				3D95EC3D1976B81100976CF5 /* BNCDetailViewController.m in Sources */,
 				3D95EC5D1976B97E00976CF5 /* BNCTableViewController.m in Sources */,
 				3D95EC341976B81100976CF5 /* BNCAppDelegate.m in Sources */,
+				3D95EC661976BBA500976CF5 /* BNCDisplayOperation.m in Sources */,
 				3D95EC301976B81100976CF5 /* main.m in Sources */,
+				3D95EC631976BB9B00976CF5 /* BNCDownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
