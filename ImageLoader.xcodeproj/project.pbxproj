@@ -14,7 +14,6 @@
 		3D95EC301976B81100976CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC2F1976B81100976CF5 /* main.m */; };
 		3D95EC341976B81100976CF5 /* BNCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC331976B81100976CF5 /* BNCAppDelegate.m */; };
 		3D95EC371976B81100976CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D95EC351976B81100976CF5 /* Main.storyboard */; };
-		3D95EC3A1976B81100976CF5 /* BNCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC391976B81100976CF5 /* BNCMasterViewController.m */; };
 		3D95EC3D1976B81100976CF5 /* BNCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC3C1976B81100976CF5 /* BNCDetailViewController.m */; };
 		3D95EC3F1976B81100976CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D95EC3E1976B81100976CF5 /* Images.xcassets */; };
 		3D95EC461976B81100976CF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D95EC451976B81100976CF5 /* XCTest.framework */; };
@@ -22,6 +21,7 @@
 		3D95EC481976B81100976CF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D95EC271976B81100976CF5 /* UIKit.framework */; };
 		3D95EC501976B81100976CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D95EC4E1976B81100976CF5 /* InfoPlist.strings */; };
 		3D95EC521976B81100976CF5 /* ImageLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC511976B81100976CF5 /* ImageLoaderTests.m */; };
+		3D95EC5D1976B97E00976CF5 /* BNCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95EC5C1976B97E00976CF5 /* BNCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 		3D95EC321976B81100976CF5 /* BNCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCAppDelegate.h; sourceTree = "<group>"; };
 		3D95EC331976B81100976CF5 /* BNCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCAppDelegate.m; sourceTree = "<group>"; };
 		3D95EC361976B81100976CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D95EC381976B81100976CF5 /* BNCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCMasterViewController.h; sourceTree = "<group>"; };
-		3D95EC391976B81100976CF5 /* BNCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCMasterViewController.m; sourceTree = "<group>"; };
 		3D95EC3B1976B81100976CF5 /* BNCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCDetailViewController.h; sourceTree = "<group>"; };
 		3D95EC3C1976B81100976CF5 /* BNCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCDetailViewController.m; sourceTree = "<group>"; };
 		3D95EC3E1976B81100976CF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		3D95EC4D1976B81100976CF5 /* ImageLoaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageLoaderTests-Info.plist"; sourceTree = "<group>"; };
 		3D95EC4F1976B81100976CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D95EC511976B81100976CF5 /* ImageLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageLoaderTests.m; sourceTree = "<group>"; };
+		3D95EC5B1976B97E00976CF5 /* BNCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCTableViewController.h; sourceTree = "<group>"; };
+		3D95EC5C1976B97E00976CF5 /* BNCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +118,10 @@
 				3D95EC321976B81100976CF5 /* BNCAppDelegate.h */,
 				3D95EC331976B81100976CF5 /* BNCAppDelegate.m */,
 				3D95EC351976B81100976CF5 /* Main.storyboard */,
-				3D95EC381976B81100976CF5 /* BNCMasterViewController.h */,
-				3D95EC391976B81100976CF5 /* BNCMasterViewController.m */,
 				3D95EC3B1976B81100976CF5 /* BNCDetailViewController.h */,
 				3D95EC3C1976B81100976CF5 /* BNCDetailViewController.m */,
+				3D95EC5B1976B97E00976CF5 /* BNCTableViewController.h */,
+				3D95EC5C1976B97E00976CF5 /* BNCTableViewController.m */,
 				3D95EC3E1976B81100976CF5 /* Images.xcassets */,
 				3D95EC2A1976B81100976CF5 /* Supporting Files */,
 			);
@@ -255,8 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D95EC3A1976B81100976CF5 /* BNCMasterViewController.m in Sources */,
 				3D95EC3D1976B81100976CF5 /* BNCDetailViewController.m in Sources */,
+				3D95EC5D1976B97E00976CF5 /* BNCTableViewController.m in Sources */,
 				3D95EC341976B81100976CF5 /* BNCAppDelegate.m in Sources */,
 				3D95EC301976B81100976CF5 /* main.m in Sources */,
 			);

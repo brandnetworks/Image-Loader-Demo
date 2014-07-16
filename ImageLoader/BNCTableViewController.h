@@ -1,5 +1,5 @@
 //
-//  BNCMasterViewController.h
+//  BNCTableViewController.h
 //  ImageLoader
 //
 //  Created by bnicholas on 7/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BNCMasterViewController : UITableViewController
+@interface BNCTableViewController : UITableViewController
 
 @end
